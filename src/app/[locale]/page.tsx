@@ -10,7 +10,6 @@ import { Props } from '@/types/commonTypes';
 
 export default function Home({ params: { locale } }: Props) {
   setRequestLocale(locale);
-  console.log('page set:', locale);
   return (
     <>
       <Hero />
