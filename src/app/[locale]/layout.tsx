@@ -50,7 +50,6 @@ export default async function LocaleLayout({
 
   // Enable static rendering
   setRequestLocale(locale);
-  console.log('layout set:', locale);
 
   return <BaseLayout locale={locale}>{children}</BaseLayout>;
 }
